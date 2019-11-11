@@ -1,0 +1,25 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "simple project con utilizando docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonacos/docker-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonacos/docker-node/issues"
+  },
+  "homepage": "https://github.com/nelsonacos/docker-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
